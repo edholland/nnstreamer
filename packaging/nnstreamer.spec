@@ -1,5 +1,5 @@
 # Execute gbs with --define "testcoverage 1" in case that you must get unittest coverage statictics
-%define		gstpostfix	gstreamer-1.0
+%define		gstpostfix	gstreamer-1.5
 %define		gstlibdir	%{_libdir}/%{gstpostfix}
 
 Name:		nnstreamer

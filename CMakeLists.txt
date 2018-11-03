@@ -29,17 +29,17 @@ ENDIF(LIB_INSTALL_DIR)
 
 IF(GST_INSTALL_DIR)
 ELSE(GST_INSTALL_DIR)
-    SET(GST_INSTALL_DIR "${PREFIX}/lib/gstreamer-1.0")
+    SET(GST_INSTALL_DIR "${PREFIX}/lib/gstreamer-1.5")
 ENDIF(GST_INSTALL_DIR)
 
 FIND_PACKAGE(PkgConfig REQUIRED)
 SET(PKG_MODULES
-	gstreamer-1.0
-	gstreamer-base-1.0
-	gstreamer-controller-1.0
-	gstreamer-video-1.0
-	gstreamer-audio-1.0
-	gstreamer-app-1.0
+	gstreamer-1.5
+	gstreamer-base-1.5
+	gstreamer-controller-1.5
+	gstreamer-video-1.5
+	gstreamer-audio-1.5
+	gstreamer-app-1.5
 	glib-2.0
 )
 

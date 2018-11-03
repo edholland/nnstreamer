@@ -15,10 +15,10 @@ Requires:       gst-plugins-good-extra
 Requires:       gst-plugins-base
 BuildRequires:  pkg-config
 BuildRequires:  pkgconfig(nnstreamer)
-BuildRequires:  pkgconfig(gstreamer-1.0)
-BuildRequires:  pkgconfig(gstreamer-video-1.0)
-BuildRequires:  pkgconfig(gstreamer-audio-1.0)
-BuildRequires:  pkgconfig(gstreamer-app-1.0)
+BuildRequires:  pkgconfig(gstreamer-1.5)
+BuildRequires:  pkgconfig(gstreamer-video-1.5)
+BuildRequires:  pkgconfig(gstreamer-audio-1.5)
+BuildRequires:  pkgconfig(gstreamer-app-1.5)
 BuildRequires:  cmake
 
 %description
